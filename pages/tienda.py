@@ -538,12 +538,12 @@ if selected == "Laptops":
 
 if selected == "Carrito":
     title("Carrito")
-    write("Aqui va el total del precio del producto")
+    write("Gracias por tu elección! Este es el total de tu compra.")
     confirmar_compra = button("Confirmar compra", key= "confirmar")
     if confirmar_compra:
         session_state.precio = 0
         success("Compra exitosa!")
-    write("Precio total a pagar: ", session_state.precio)
+    write("Precio total a pagar: ")
     st_lottie(lottie3, key="carritodecompras")
     
 if selected == "Cerrar sesion":
