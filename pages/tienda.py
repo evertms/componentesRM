@@ -229,6 +229,7 @@ if selected == "Motherboards":
             image("imgs\mb_1.jpg",width=290)
         with col_derecha:
             pr1 = mobos[0].get_price()
+            subheader(str(mobos[0].get_prod_name()))
             text(f"Precio: {pr1} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad1"))
@@ -244,6 +245,7 @@ if selected == "Motherboards":
            image("imgs\mb_2.jpg", width=290)
         with col_derecha1:
             pr2 = mobos[1].get_price()
+            subheader(str(mobos[1].get_prod_name()))
             text(f"Precio: {pr2} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad2"))
@@ -259,6 +261,7 @@ if selected == "Motherboards":
            image("imgs\mb_3.jpg" ,width= 290)
         with col_derecha2:
             pr3 = mobos[2].get_price()
+            subheader(str(mobos[2].get_prod_name()))
             text(f"Precio: {pr3} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad3"))
@@ -274,6 +277,7 @@ if selected == "Motherboards":
            image("imgs\mb_4.jpg" ,width= 290)
         with col_derecha3:
             pr4 = mobos[3].get_price()
+            subheader(str(mobos[3].get_prod_name()))
             text(f"Precio: {pr4} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad4"))
@@ -289,6 +293,7 @@ if selected == "Motherboards":
            image("imgs\mb_5.jpg" ,width= 290)
         with col_derecha4:
             pr5 = mobos[4].get_price()
+            subheader(str(mobos[4].get_prod_name()))
             text(f"Precio: {pr5} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad5"))
@@ -308,6 +313,7 @@ if selected == "Procesadores":
             image("imgs\pr_1.jpg",width=290)
         with col_derecha:
             pr1 = processors[0].get_price()
+            subheader(str(processors[0].get_prod_name()))
             text(f"Precio: {pr1} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad1"))
@@ -323,6 +329,7 @@ if selected == "Procesadores":
            image("imgs\pr_2.jpg", width=290)
         with col_derecha1:
             pr2 = processors[1].get_price()
+            subheader(str(processors[1].get_prod_name()))
             text(f"Precio: {pr2} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad2"))
@@ -338,6 +345,7 @@ if selected == "Procesadores":
            image("imgs\pr_3.jpg" ,width= 290)
         with col_derecha2:
             pr3 = processors[2].get_price()
+            subheader(str(processors[2].get_prod_name()))
             text(f"Precio: {pr3} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad3"))
@@ -353,6 +361,7 @@ if selected == "Procesadores":
            image("imgs\pr_4.jpg" ,width= 290)
         with col_derecha3:
             pr4 = processors[3].get_price()
+            subheader(str(processors[3].get_prod_name()))
             text(f"Precio: {pr4} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad4"))
@@ -368,6 +377,7 @@ if selected == "Procesadores":
            image("imgs\pr_5.jpg" ,width= 290)
         with col_derecha4:
             pr5 = processors[4].get_price()
+            subheader(str(processors[4].get_prod_name()))
             text(f"Precio: {pr5} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad5"))
@@ -387,6 +397,7 @@ if selected == "Tarjetas gráficas":
             image("imgs\g_1.jpg",width=290)
         with col_derecha:
             pr1 = graphcards[0].get_price()
+            subheader(str(graphcards[0].get_prod_name()))
             text(f"Precio: {pr1} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad1"))
@@ -402,6 +413,7 @@ if selected == "Tarjetas gráficas":
            image("imgs\g_2.jpg", width=290)
         with col_derecha1:
             pr2 = graphcards[1].get_price()
+            subheader(str(graphcards[1].get_prod_name()))
             text(f"Precio: {pr2} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad2"))
@@ -417,6 +429,7 @@ if selected == "Tarjetas gráficas":
            image("imgs\g_3.jpg" ,width= 290)
         with col_derecha2:
             pr3 = graphcards[2].get_price()
+            subheader(str(graphcards[2].get_prod_name()))
             text(f"Precio: {pr3} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad3"))
@@ -432,6 +445,7 @@ if selected == "Tarjetas gráficas":
            image("imgs\g_4.jpg" ,width= 290)
         with col_derecha3:
             pr4 = graphcards[3].get_price()
+            subheader(str(graphcards[3].get_prod_name()))
             text(f"Precio: {pr4} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad4"))
@@ -447,6 +461,7 @@ if selected == "Tarjetas gráficas":
            image("imgs\g_5.jpg" ,width= 290)
         with col_derecha4:
             pr5 = graphcards[4].get_price()
+            subheader(str(graphcards[4].get_prod_name()))
             text(f"Precio: {pr5} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad5"))
@@ -465,6 +480,7 @@ if selected == "Laptops":
             image("imgs\lap_1.jpg",width=290)
         with col_derecha:
             pr1 = laptops[0].get_price()
+            subheader(str(laptops[0].get_prod_name()))
             text(f"Precio: {pr1} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad1"))
@@ -480,6 +496,7 @@ if selected == "Laptops":
            image("imgs\lap_2.jpg", width=290)
         with col_derecha1:
             pr2 = laptops[1].get_price()
+            subheader(str(laptops[1].get_prod_name()))
             text(f"Precio: {pr2} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad2"))
@@ -495,6 +512,7 @@ if selected == "Laptops":
            image("imgs\lap_3.jpg" ,width= 290)
         with col_derecha2:
             pr3 = laptops[2].get_price()
+            subheader(str(laptops[2].get_prod_name()))
             text(f"Precio: {pr3} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad3"))
@@ -510,6 +528,7 @@ if selected == "Laptops":
            image("imgs\lap_4.jpg" ,width= 290)
         with col_derecha3:
             pr4 = laptops[3].get_price()
+            subheader(str(laptops[3].get_prod_name()))
             text(f"Precio: {pr4} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad4"))
@@ -525,6 +544,7 @@ if selected == "Laptops":
            image("imgs\lap_5.jpg" ,width= 290)
         with col_derecha4:
             pr5 = laptops[4].get_price()
+            subheader(str(laptops[4].get_prod_name()))
             text(f"Precio: {pr5} USD")
             text("Tiempo de envio: 1 día")
             cantidad = int(number_input("Escoge la cantidad", 0,10,key="cantidad5"))
